@@ -6,11 +6,18 @@ body {
     text-align: justify;
 }
 
+figure {
+    margin-inline: 0;
+}
+
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 75vw;
     display: block;
     margin: 0 auto;
-    /* padding-inline: 50px; */
     padding-top: 20px;
     padding-bottom: 20px;
 }
