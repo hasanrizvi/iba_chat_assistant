@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>IBA Chat Assistant</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">An AI Powered Chatbot For IBA's Website As A Browser Extension</h1>
+
+        <div class="summary">
+            <h2>Summary</h2>
+            <p>
+                This is an AI-powered chatbot encapsulated within a browser extension,
+                strategically employing machine learning methodologies to proficiently address inquiries pertaining to
+                Institute of Business Administration (IBA). The extension transforms the browsing
+                experience by delivering prompt and contextually informed responses, thereby optimizing access to
+                IBA-related information. The machine learning algorithms embedded within the extension provide
+                users with an interactive support system for navigating the complexities of IBA's website.
+            </p>
+        </div>
+
+        <div class="novelty">
+            <h2>Novelty</h2>
+            <p>
+                The chatbot application provides a user-friendly interface that greets users upon activation and offers options for assistance. It effectively processes natural language queries through API requests to a backend server, which retrieves information from a vector database covering admissions procedures, academic programs, campus facilities, and FAQs. Responses are formulated based on the search results and may include links to relevant university website pages. The interface prioritizes usability with a clear, minimalistic design to ensure ease of interaction. Security measures include secure data transmission via REST APIs and no storage of user data on the backend server, thus minimizing the risk of data breaches. Performance goals focus on speed, reliability, and scalability to maintain a seamless user experience with quick response times and the ability to handle concurrent requests effectively.
+            </p>
+        </div>
+
+        <div class="design-diagram">
+            <h2>Design Diagram</h2>
+            <img src="public/images/design_diagram.jpg" alt="Design Diagram" />
+            <p>
+                This is a design diagram which represents how this application works.
+                First of all a user has to ask a query to start the process.
+                The query is sent to the backend server for processing
+                When the query reaches the backend server it is matched with the closet document present in the database. The language model then extracts the relevant information and formulates a message.
+                The message is sent to the frontend application and it is shown as a chat message to the user.
+            </p>
+        </div>
+
+        <div class="results">
+            <h2>Results</h2>
+            <figure>
+                <img src="public/images/result_1.png" alt="Greeting Message" />
+                <figcaption>
+                    The image above shows a greeting message whenever a user opens up the extension for the first time.
+                </figcaption>
+            </figure>
+            <br><br>
+            <figure>
+                <img src="public/images/result_2.png" alt="Response Message" />
+                <figcaption>
+                    This is how the chatbot responds to a user's query. As you can see the user asked for the admission criteria for BS Accounting and Finance and the chatbot responded accordingly.
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="project-code">
+            <h2>Code Repositories</h2>
+            <p>
+                <a href="https://github.com/hasanrizvi/iba_chat_assistant_fe">Frontend Code Repository</a>
+            </p>
+            <p>
+                <a href="https://github.com/hasanrizvi/iba_chat_assistant_be">Backend Code Repository</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
